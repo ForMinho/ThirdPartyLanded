@@ -1,0 +1,27 @@
+//
+//  PrefixHeader.pch
+//  LogInSDK
+//
+//  Created by For_Minho on 15-1-29.
+//  Copyright (c) 2015年 For_Minho. All rights reserved.
+//
+
+#ifndef LogInSDK_PrefixHeader_pch
+#define LogInSDK_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+#import "WeiboSDK.h"
+#import "WXApi.h"
+
+#import "LogInObject.h"
+#define QQAppKey @"1103858173"
+
+#define WeiBoAppKey @"1497018353"
+#define WeiBoRedirectUrl @"http://51ganjie.cn/"
+#define WeiXinAppKey @"wx8182a021633cd658"
+
+#endif
