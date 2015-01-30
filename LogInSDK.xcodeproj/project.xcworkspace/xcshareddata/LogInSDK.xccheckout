@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>798D6015-AB9B-4B06-A864-1D165B3A1F95</string>
+	<key>IDESourceControlProjectName</key>
+	<string>LogInSDK</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E6F45684A6790D3554DBA8C38FBFAE6BE76C64F1</key>
+		<string>https://github.com/ForMinho/ThirdPartyLanded.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>LogInSDK.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E6F45684A6790D3554DBA8C38FBFAE6BE76C64F1</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ForMinho/ThirdPartyLanded.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E6F45684A6790D3554DBA8C38FBFAE6BE76C64F1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E6F45684A6790D3554DBA8C38FBFAE6BE76C64F1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ThirdPartyLanded</string>
+		</dict>
+	</array>
+</dict>
+</plist>

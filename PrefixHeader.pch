@@ -18,10 +18,19 @@
 #import "WXApi.h"
 
 #import "LogInObject.h"
-#define QQAppKey @"1103858173"
 
-#define WeiBoAppKey @"1497018353"
-#define WeiBoRedirectUrl @"http://51ganjie.cn/"
-#define WeiXinAppKey @"wx8182a021633cd658"
+#define QQAppKey @""
 
+#define WeiBoAppKey @""
+#define WeiBoRedirectUrl @""
+#define WeiXinAppKey @""
+
+
+#define UserInfoNotification     @"UserInfoNotification"
+
+
+
+#define ButtonName @"ButtonName"
+#define Slector @"Slector"
+#define BtnColor @"BtnColor"
 #endif
