@@ -28,6 +28,7 @@
 		AA3FF04C1A7A1DF600210CD4 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA3FF04B1A7A1DF600210CD4 /* CoreTelephony.framework */; };
 		AA3FF04E1A7A1E0000210CD4 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AA3FF04D1A7A1E0000210CD4 /* libstdc++.dylib */; };
 		AA3FF0501A7A1E0700210CD4 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AA3FF04F1A7A1E0700210CD4 /* libz.dylib */; };
+		AAD62CE11A7B4F4E00621C50 /* ButtonInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = AAD62CE01A7B4F4E00621C50 /* ButtonInfo.plist */; };
 		AAEDF6BA1A7A2E0600C53CAC /* LogInObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEDF6B91A7A2E0600C53CAC /* LogInObject.m */; };
 /* End PBXBuildFile section */
 
@@ -81,6 +82,7 @@
 		AA3FF04B1A7A1DF600210CD4 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		AA3FF04D1A7A1E0000210CD4 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
 		AA3FF04F1A7A1E0700210CD4 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		AAD62CE01A7B4F4E00621C50 /* ButtonInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ButtonInfo.plist; sourceTree = "<group>"; };
 		AAEDF6B81A7A2E0600C53CAC /* LogInObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInObject.h; sourceTree = "<group>"; };
 		AAEDF6B91A7A2E0600C53CAC /* LogInObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -158,6 +160,7 @@
 				AA3FEFFB1A7A13D100210CD4 /* Images.xcassets */,
 				AA3FEFFD1A7A13D100210CD4 /* LaunchScreen.xib */,
 				AA3FEFEE1A7A13D100210CD4 /* Supporting Files */,
+				AAD62CE01A7B4F4E00621C50 /* ButtonInfo.plist */,
 			);
 			path = LogInSDK;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 				AA3FEFFA1A7A13D100210CD4 /* Main.storyboard in Resources */,
 				AA3FEFFF1A7A13D100210CD4 /* LaunchScreen.xib in Resources */,
 				AA3FF0341A7A1D5300210CD4 /* WeiboSDK.bundle in Resources */,
+				AAD62CE11A7B4F4E00621C50 /* ButtonInfo.plist in Resources */,
 				AA3FEFFC1A7A13D100210CD4 /* Images.xcassets in Resources */,
 				AA3FF0401A7A1D5C00210CD4 /* read_me.txt in Resources */,
 			);

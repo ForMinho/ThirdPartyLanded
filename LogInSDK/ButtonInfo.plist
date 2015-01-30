@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TencentOAuth</key>
+	<dict>
+		<key>Slector</key>
+		<string>LogInWithTencent</string>
+		<key>ButtonName</key>
+		<string>QQ</string>
+	</dict>
+	<key>WeiboSDK</key>
+	<dict>
+		<key>ButtonName</key>
+		<string>微博</string>
+		<key>Slector</key>
+		<string>LogInWithWeiBo</string>
+	</dict>
+	<key>WXApi</key>
+	<dict>
+		<key>Slector</key>
+		<string>LogInWithTencent</string>
+		<key>ButtonName</key>
+		<string>微信</string>
+	</dict>
+</dict>
+</plist>

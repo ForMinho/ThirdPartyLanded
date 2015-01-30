@@ -71,7 +71,8 @@
         NSData *data = [NSURLConnection sendSynchronousRequest:request
                                              returningResponse:nil error:nil];
         NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
-
+        NSLog(@"dic == %@",dic);
+        [[NSNotificationCenter defaultCenter] postNotificationName:UserInfoNotification object:dic];
     }
 }
 @end

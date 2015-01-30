@@ -8,10 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
+typedef void(^GetUserInfo)(NSDictionary *dic);
 @interface LogInObject : NSObject
 
 @property (nonatomic, strong) NSDictionary *info;
 
 + (instancetype)sharedLogInObject;
-- (void)LogInWithWeiBo;
++ (NSArray *)AppInstallOnPhone;
+- (void)LogInWithWeiBo:(GetUserInfo)userInfo;
+- (void)LogInWithTencent:(GetUserInfo)userInfo;
 @end
